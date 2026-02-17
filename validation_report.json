@@ -1,0 +1,175 @@
+{
+  "dataset_name": "sample_churn_data",
+  "basic_statistics": {
+    "total_rows": 10,
+    "total_columns": 14,
+    "column_statistics": [
+      {
+        "column": "customer_id",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "age",
+        "data_type": "int64",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "gender",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "tenure_months",
+        "data_type": "int64",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "monthly_charges",
+        "data_type": "float64",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "total_charges",
+        "data_type": "float64",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "contract_type",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "payment_method",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "internet_service",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "online_security",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "tech_support",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "churn",
+        "data_type": "bool",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "signup_date",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      },
+      {
+        "column": "last_interaction_date",
+        "data_type": "object",
+        "non_null_count": "10",
+        "null_count": "0",
+        "null_percentage": 0.0
+      }
+    ],
+    "numeric_statistics": {
+      "age": {
+        "mean": 44.9,
+        "std": 15.19,
+        "min": "25",
+        "max": "69",
+        "median": 43.5
+      },
+      "tenure_months": {
+        "mean": 25.8,
+        "std": 18.72,
+        "min": "6",
+        "max": "59",
+        "median": 21.0
+      },
+      "monthly_charges": {
+        "mean": 96.24,
+        "std": 55.24,
+        "min": 35.5,
+        "max": 199.34,
+        "median": 80.655
+      },
+      "total_charges": {
+        "mean": 3352.58,
+        "std": 3918.25,
+        "min": 213.0,
+        "max": 11761.06,
+        "median": 1735.8
+      }
+    }
+  },
+  "validation_report": {
+    "dataset": "sample_churn_data",
+    "validation_timestamp": "2026-02-10T23:54:21.159899",
+    "schema_validation": {
+      "schema_match": true,
+      "missing_fields": [],
+      "extra_fields": [],
+      "type_mismatches": []
+    },
+    "data_quality": {
+      "total_rows": 10,
+      "null_counts": {
+        "customer_id": 0,
+        "age": 0,
+        "gender": 0,
+        "tenure_months": 0,
+        "monthly_charges": 0,
+        "total_charges": 0,
+        "contract_type": 0,
+        "payment_method": 0,
+        "internet_service": 0,
+        "online_security": 0,
+        "tech_support": 0,
+        "churn": 0,
+        "signup_date": 0,
+        "last_interaction_date": 0
+      },
+      "duplicate_customers": "0",
+      "negative_counts": {
+        "age": "0",
+        "tenure_months": "0",
+        "monthly_charges": "0",
+        "total_charges": "0"
+      },
+      "total_negatives": "0",
+      "data_quality_score": 100.0
+    }
+  }
+}
